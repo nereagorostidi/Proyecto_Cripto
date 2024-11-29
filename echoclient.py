@@ -20,7 +20,7 @@ class EchoClient(LineReceiver):
         # Datos para encriptar
         self.nonce = b'qc\xb3\x0bJ\x92\xaf{\xee\r\x1a\x94d\x04o\xf8'
         self.associatedData = b"SENSOR"
-        self.dataTemperature = b"2,4,10,20,30,50,99"
+        self.dataTemperature = b"1,3,12,24,29,42,100"
 
     def connectionMade(self):
         """Cuando conecta el cliente al servidor, envía su clave pública."""
